@@ -4,6 +4,7 @@ CC= gcc
 
 run: main
 	./main
+	magick ascii.ppm image.png
 
 main: $(OBJECTS)
 	$(CC) -o main $(OBJECTS)
