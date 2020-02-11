@@ -47,7 +47,7 @@ int main() {
 
   // display(s);
   // save_extension(s, "lines.png");
-  printf("png saved to image.png")
+  printf("png saved to image.png");
   save_ppm(s, "binary.ppm");
   save_ppm_ascii(s, "ascii.ppm");
 }
